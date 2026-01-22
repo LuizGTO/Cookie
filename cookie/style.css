@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+    width: 0px;
+}
+
+body{
+    background-color: #1b263b;
+}
+
+.cookie-img{
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 5000px;
+}
+
+#lucas{
+    height: 100%;
+    width: 100%;
+}
+
+.cookie-img:hover{
+    width: 370px;
+    height: 370px;
+}
+
+.meucu{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 5px;
+}
+
+.cu{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 5px;
+}
+
+.pal{
+    background-color: #669bbc;
+    
+    height: 60vh;
+}
+
+#pal{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.bolas{
+    background-color: #264653;
+    height: 40vh;
+}
+
+#up{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.upgrades{
+    height: 25vh;
+    width: 100%;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.bolas{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.babloC, .gatoFodaC, .rafafaC{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.bablo{
+    width: 100%;
+    height: 13vh;
+    border-radius: 10px;
+    
+}
